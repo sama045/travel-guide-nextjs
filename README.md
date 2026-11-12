@@ -1,4 +1,4 @@
-# Nova Digital
+# Siam Journey
 
 เว็บไซต์เกี่ยวกับการท่องเที่ยวในประเทศไทย พัฒนาด้วย **Next.js 16.2.10 (App Router)**
 
@@ -17,7 +17,7 @@
 # 📁 Project Structure
 
 ```
-nova-digital/
+siam-journey/
 │
 ├── app/
 │   ├── favicon.ico
