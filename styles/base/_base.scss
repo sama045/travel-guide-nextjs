@@ -1,0 +1,22 @@
+@use "../abstracts/variables" as *;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-base;
+    font-size: $fs-md;
+    line-height: 1.6;
+    color: $gray-800;
+    background: $white;
+}
+
+section {
+    padding: 5rem 0;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}

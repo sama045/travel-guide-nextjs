@@ -1,0 +1,22 @@
+@use "../abstracts/mixins" as *;
+
+.homepage {
+    & .hero {
+        background:url("/images/home-bg.jpg") top center no-repeat;
+        background-size: cover;
+        min-height: 60vh;     
+        margin-top: -40px;
+
+        @include tablet {
+            min-height:30vh;
+            margin-top: 0;
+        }  
+
+        @include desktop {
+            min-height: 75vh;
+            margin-top: -40px;
+            padding-top: 10rem;
+        }        
+        
+    }
+}

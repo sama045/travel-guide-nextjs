@@ -1,0 +1,46 @@
+@use "../..//styles/abstracts/mixins" as *;
+
+.content_page {
+    @include container;
+    display: grid;
+    grid-template-columns: 2fr 0.8fr;
+    gap: 2rem;
+
+    @include mobile {
+        grid-template-columns: 1fr;
+    }
+
+    article {
+        padding: 2rem 0;
+        p {
+            margin-bottom: 1rem;
+        }
+    }
+
+    aside {
+        padding: 5rem 0;
+
+        h3 {
+            margin: 2rem 0 1rem;
+        }
+    }
+
+    &_sidebar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        margin: 10px 0;
+
+
+        img {
+            object-fit: cover;
+            width: 190px;
+            height: 100px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+    }
+}
